@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-peach: #FF4B1F;
+  --color-lime: #7DD934;
+  --color-navy: #201E47;
+  --color-silver: #E3E3E3;
+
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-navy text-silver antialiased;
+  }
+}
